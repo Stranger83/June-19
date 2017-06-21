@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nakov.TurtleGraphics;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace TurtleGraphics
 		public Form1()
 		{
 			InitializeComponent();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			Turtle.Forward(100);
+			Turtle.Rotate(120);
+			Turtle.Forward(100);
+			Turtle.Rotate(120);
+			Turtle.Forward(100);
+			Turtle.Rotate(120);
+
 		}
 	}
 }
